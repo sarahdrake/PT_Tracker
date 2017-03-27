@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3423611E898B5700809CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3423601E898B5700809CB6 /* AppDelegate.swift */; };
+		EE3423631E898B5700809CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3423621E898B5700809CB6 /* ViewController.swift */; };
+		EE3423661E898B5700809CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3423641E898B5700809CB6 /* Main.storyboard */; };
+		EE3423691E898B5700809CB6 /* brodyPT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE3423671E898B5700809CB6 /* brodyPT.xcdatamodeld */; };
+		EE34236B1E898B5700809CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE34236A1E898B5700809CB6 /* Assets.xcassets */; };
+		EE34236E1E898B5700809CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE34236C1E898B5700809CB6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE34235D1E898B5700809CB6 /* brodyPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brodyPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3423601E898B5700809CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3423621E898B5700809CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3423651E898B5700809CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3423681E898B5700809CB6 /* brodyPT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = brodyPT.xcdatamodel; sourceTree = "<group>"; };
+		EE34236A1E898B5700809CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE34236D1E898B5700809CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE34236F1E898B5700809CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE34235A1E898B5700809CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3423541E898B5700809CB6 = {
+			isa = PBXGroup;
+			children = (
+				EE34235F1E898B5700809CB6 /* brodyPT */,
+				EE34235E1E898B5700809CB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE34235E1E898B5700809CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE34235D1E898B5700809CB6 /* brodyPT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE34235F1E898B5700809CB6 /* brodyPT */ = {
+			isa = PBXGroup;
+			children = (
+				EE3423601E898B5700809CB6 /* AppDelegate.swift */,
+				EE3423621E898B5700809CB6 /* ViewController.swift */,
+				EE3423641E898B5700809CB6 /* Main.storyboard */,
+				EE34236A1E898B5700809CB6 /* Assets.xcassets */,
+				EE34236C1E898B5700809CB6 /* LaunchScreen.storyboard */,
+				EE34236F1E898B5700809CB6 /* Info.plist */,
+				EE3423671E898B5700809CB6 /* brodyPT.xcdatamodeld */,
+			);
+			path = brodyPT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE34235C1E898B5700809CB6 /* brodyPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3423721E898B5700809CB6 /* Build configuration list for PBXNativeTarget "brodyPT" */;
+			buildPhases = (
+				EE3423591E898B5700809CB6 /* Sources */,
+				EE34235A1E898B5700809CB6 /* Frameworks */,
+				EE34235B1E898B5700809CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brodyPT;
+			productName = brodyPT;
+			productReference = EE34235D1E898B5700809CB6 /* brodyPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3423551E898B5700809CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sarah Drake";
+				TargetAttributes = {
+					EE34235C1E898B5700809CB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE3423581E898B5700809CB6 /* Build configuration list for PBXProject "brodyPT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3423541E898B5700809CB6;
+			productRefGroup = EE34235E1E898B5700809CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE34235C1E898B5700809CB6 /* brodyPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE34235B1E898B5700809CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34236E1E898B5700809CB6 /* LaunchScreen.storyboard in Resources */,
+				EE34236B1E898B5700809CB6 /* Assets.xcassets in Resources */,
+				EE3423661E898B5700809CB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3423591E898B5700809CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3423631E898B5700809CB6 /* ViewController.swift in Sources */,
+				EE3423691E898B5700809CB6 /* brodyPT.xcdatamodeld in Sources */,
+				EE3423611E898B5700809CB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE3423641E898B5700809CB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3423651E898B5700809CB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE34236C1E898B5700809CB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE34236D1E898B5700809CB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3423701E898B5700809CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE3423711E898B5700809CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3423731E898B5700809CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = brodyPT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.brodyPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE3423741E898B5700809CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = brodyPT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.brodyPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3423581E898B5700809CB6 /* Build configuration list for PBXProject "brodyPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3423701E898B5700809CB6 /* Debug */,
+				EE3423711E898B5700809CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3423721E898B5700809CB6 /* Build configuration list for PBXNativeTarget "brodyPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3423731E898B5700809CB6 /* Debug */,
+				EE3423741E898B5700809CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE3423671E898B5700809CB6 /* brodyPT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE3423681E898B5700809CB6 /* brodyPT.xcdatamodel */,
+			);
+			currentVersion = EE3423681E898B5700809CB6 /* brodyPT.xcdatamodel */;
+			path = brodyPT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE3423551E898B5700809CB6 /* Project object */;
+}
